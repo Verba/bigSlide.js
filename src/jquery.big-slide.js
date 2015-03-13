@@ -144,6 +144,8 @@
 
     controller.init();
 
+    return view;
+
   };
 
 }(jQuery));
