@@ -138,6 +138,12 @@
         this.$menu.css(this.positionOffScreen);
         this.$push.css(this.noTranslation);
         //menuLink.removeClass(settings.activeBtn);
+      },
+
+      disable: function() {
+        controller.changeState();
+        this.$menu.css(this.noTranslation);
+        this.$push.css(this.noTranslation);
       }
 
     }
